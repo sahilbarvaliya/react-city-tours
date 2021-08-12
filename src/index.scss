@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$mainBlack: #222;
+$mainBlue: #00adee;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+$mainBlue2: #0f75bc;
+$mainTransition: all 0.3s liner;
+body {
+  font-family: "Hammersmith One", sans-serif;
+  // background: $mainGrey;
+  color: $mainBlack;
+}
