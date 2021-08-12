@@ -33,3 +33,15 @@
 .active {
   color: $mainBlue;
 }
+
+@media screen and (max-width: 529px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    li {
+      margin: 3px;
+    }
+  }
+}
